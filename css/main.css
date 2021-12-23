@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 119px;
+}
+
+.box1 {}
+
+.box1>.box1_left {
+    display: flex;
+    width: 70%;
+}
+
+.box1>.box1_left>.left_child {
+   width: 300px;
+}
+
+.box1>.box1_left>.left_child>img{
+    width: 100%;
+    
+}
+ .box1>.box1_left>.left_child2 {
+    flex-grow: 1;
+}
